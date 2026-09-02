@@ -26,3 +26,9 @@ git remote -v
 
 git remote set-url origin <direccion del repositorio en la nube>
     Modificar la direccion remota de nuestro repositorio en la nube
+
+
+Para actualizar un repositorio y subir otro commit
+    git add .
+    git commit -m 'mensaje'
+    git push
